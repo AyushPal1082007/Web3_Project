@@ -73,7 +73,7 @@ return;
 
 try{
 
-const res = await fetch("http://localhost:5000/classify",{
+const res = await fetch("https://ai-backend-gnj7.onrender.com/classify",{
 method:"POST",
 headers:{
 "Content-Type":"application/json"
